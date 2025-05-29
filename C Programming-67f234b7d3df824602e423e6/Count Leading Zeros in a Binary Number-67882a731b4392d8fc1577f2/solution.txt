@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\nint main(){\r\n    int a;\r\n    scanf(\"%d\",&a);\r\n\r\n    int count = 0;\r\n\r\n    while(a){\r\n        a = a >> 1;\r\n        count++;\r\n    }\r\n\r\n    printf(\"%d\",(32 - count));\r\n    \r\n}","language":"c","time":"2025-05-29T20:35:56.748Z","isCorrect":false}]
